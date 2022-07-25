@@ -8,20 +8,50 @@
 }
 #header{
     background: #008F76;
-    height: 120px;
+    height: 130px;
 }
 .ikonka{
-
     margin: 40px 100px;
     border: 5px solid white;
     border-radius: 50px;
     background: white;
 }
+
+.ikonka1{
+    position: relative;
+    animation: ikonka1key 1s linear 1;
+}
+
+@keyframes ikonka1key {
+    from{
+        margin-left: -300px;
+    }
+    to{
+        margin-left: 0;
+    }
+}
+
+.knopkaht{
+    animation: knopkaht 1s linear 1;
+}
+
+@keyframes knopkaht {
+    from{
+        margin-right: -300px;
+    }
+    to{
+        margin-right: 0;
+    }
+
+}
+
+
 .head1{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 
 .textH{
     display: flex;
@@ -192,7 +222,20 @@
     background: #FFFFFF;
     display: flex;
     justify-content: center;
+    animation: divkey 3s linear 1;
+    animation-delay: 1s;
     grid-area: div; }
+
+@keyframes divkey {
+    from{
+        margin-left: -800px;
+    }
+    to{
+        margin-left: 0;
+    }
+
+}
+
 .Pdiv{
     display: flex;
     flex-direction: column;
@@ -202,7 +245,20 @@
     height: 220px;
     background: #FFFFFF;
     box-shadow: 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    animation: div2key 3s linear;
+    animation-delay: 2s;
     grid-area: div2; }
+
+@keyframes div2key {
+    from{
+        margin-left: -800px;
+    }
+    to{
+        margin-left: 0;
+    }
+
+}
+
 .text1Img2{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -232,7 +288,19 @@
     height: 210px;
     background: #FFFFFF;
     box-shadow: 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    animation: div3key 3s linear;
     grid-area: div3; }
+
+@keyframes div3key {
+    from{
+        margin-left: -800px;
+    }
+    to{
+        margin-left: 0;
+    }
+
+}
+
 .text1Img3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -263,7 +331,19 @@
     margin-left: 100px;
     background: #FFFFFF;
     box-shadow: 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    animation: div5key 3s linear;
     grid-area: div5; }
+
+@keyframes div5key {
+    from{
+        margin-right: -900px;
+    }
+    to{
+        margin-right: 0;
+    }
+
+}
+
 .text1Img4{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -293,7 +373,19 @@
     height: 360px;
     background: #FFFFFF;
     box-shadow: 0 100px 80px rgba(0, 0, 0, 0.07), 0 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    animation: div4key 5s linear 1;
     grid-area: div4; }
+
+@keyframes div4key {
+    from{
+        visibility: hidden;
+    }
+    50%{
+        visibility: hidden;
+    }
+
+}
+
 .knopka{
     position: absolute;
     margin-top: 130px;
@@ -312,7 +404,19 @@
     height: 148px;
     margin-left: 90px;
     background: #FFFFFF;
+    animation: div6key 3s linear 1;
     grid-area: div6; }
+
+@keyframes div6key {
+    from{
+        margin-right: -900px;
+    }
+    to{
+        margin-right: 0;
+    }
+
+}
+
 .text1Img5{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -343,7 +447,19 @@
     margin-left: 90px;
     background: #FFFFFF;
     box-shadow: 0 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0 6.6501px 5.32008px rgba(0, 0,0, 0.0282725), 0 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+    animation: div7key 3s linear;
     grid-area: div7; }
+
+@keyframes div7key {
+    from{
+        margin-right: -900px;
+    }
+    to{
+        margin-right: 0;
+    }
+
+}
+
 .text1Img7{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
