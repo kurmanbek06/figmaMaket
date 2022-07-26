@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
 <header id="header">
@@ -41,8 +42,10 @@
         <div class="section">
             <div class="menu1">
             <div class="texty">
-                <h4 class="textS1">Pojok Baca <span class="textS1c">Probolinggo</span></h4>
-                <h1 class="textS2">Pinjam Buku Secara <span class="textS2c">Gratis</span> untuk Masyarakat</h1>
+                <div>
+                    <h4 class="textS1">Pojok Baca <span class="textS1c">Probolinggo</span></h4>
+                    <h1 class="textS2">Pinjam Buku Secara <span class="textS2c">Gratis</span> untuk Masyarakat</h1>
+                </div>
                 <div class="textS3">
                     <div class="textS3btn">
                         <a class="textS3c" href="">Cari Judul Buku</a>
@@ -94,9 +97,18 @@
                        <div class="div4">
                            <h4 class="text1Img7">Toto-chan : The  Little Girl At The Window</h4>
                            <h4 class="text2Img7">Testuko Kuroyanagi</h4>
-                           <img class="knopka" src="img/Group%20124.png" alt="">
-                           <img class="img7" src="img/image%2039.png" alt="">
-                           <img class="knopka2" src="img/Group%20123.png" alt="">
+                           <div class="swiper mySwiper">
+                               <div class="swiper-wrapper">
+                                   <div data-history="1" class="swiper-slide">
+                                       <img class="img7" src="img/image%2039.png" alt="">
+                               </div>
+                                   <div data-history="Slide 2" class="swiper-slide"><img class="img7" src="img/image%2039.png" alt=""></div>
+                                   <div data-history="3" class="swiper-slide"><img class="img7" src="img/image%2039.png" alt=""></div>
+                               </div>
+                               <div class="swiper-button-next"></div>
+                               <div class="swiper-button-prev"></div>
+                               <div class="swiper-pagination"></div>
+                           </div>
                        </div>
                        <div class="div6">
                            <h4 class="text1Img5">Hati-Hati dengan Sampah</h4>
@@ -127,5 +139,7 @@
 
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
